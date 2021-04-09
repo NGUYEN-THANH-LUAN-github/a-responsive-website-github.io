@@ -34,8 +34,25 @@ h3 {
     font-family: var(--ff-accent);
     font-weight: 900;
     line-height: 1;
+    color: var(--clr-primary-400);
 }
 
+h2,
+h3,
+p {
+    margin-bottom: 1em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header,
 section {
     padding: 3rem 0;
 }
@@ -43,6 +60,10 @@ section {
 .container {
     margin-inline: auto;
     width: min(90%, 70.5rem);
+}
+
+.container--narrow {
+    max-width: 34rem;
 }
 
 .bg-light {
