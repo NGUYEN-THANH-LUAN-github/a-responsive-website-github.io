@@ -54,12 +54,37 @@ img {
 
 header,
 section {
-    padding: 3rem 0;
+    padding: 4rem 0;
+}
+
+@media (min-width: 40em) {
+    header,
+    section {
+        padding: 7rem 0;
+    }
 }
 
 .container {
     margin-inline: auto;
     width: min(90%, 70.5rem);
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 40em) {
+    .split {
+        flex-direction: row;
+    }
+    .split>* {
+        flex-basis: 100%;
+    }
+    /* any sibling that has a sibling before it */
+    .split>*+* {
+        margin-left: 2em;
+    }
 }
 
 .container--narrow {
