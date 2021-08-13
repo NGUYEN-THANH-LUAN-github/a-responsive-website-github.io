@@ -1,6 +1,6 @@
-# a-responsive-website-github.io
+# a-responsive-website
 
-watch [DEMO](https://nguyen-thanh-luan-github.github.io/a-responsive-website-github.io/)
+watch [DEMO](https://thanh-luan-nguyen.github.io/a-responsive-website/)
 
 **DISCLAIMER** not original work
 
