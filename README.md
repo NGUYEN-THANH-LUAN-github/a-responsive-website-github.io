@@ -1,6 +1,6 @@
-# a-responsive-website
+# a responsive website
 
-watch [DEMO](https://thanh-luan-nguyen.github.io/a-responsive-website/)
+👉 [Live Demo](https://thanh-luan-nguyen.github.io/a-responsive-website/)
 
 **DISCLAIMER** not original work
 
